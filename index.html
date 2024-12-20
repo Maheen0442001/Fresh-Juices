@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Juices - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to Fresh Juices</h1>
+        <p>Please log in to explore the freshness!</p>
+        <input type="text" id="username" placeholder="Username" class="login-input" />
+        <input type="password" id="password" placeholder="Password" class="login-input" />
+        <button onclick="login()" class="login-button">Login</button>
+        <p id="error-message" style="display: none; color: red;">Invalid credentials, please try again.</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
